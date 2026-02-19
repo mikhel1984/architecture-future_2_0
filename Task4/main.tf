@@ -1,42 +1,60 @@
+terraform {
+  required_providers {
+    yandex = {
+      source = "yandex-cloud/yandex"
+    }
+  }
+}
+
+provider "yandex" {
+  token = var.token
+  cloud_id = var.cloud_id
+  folder_id = var.folder_id
+  zone = var.zone
+}
+
+data "yandex_compute_image" "ubuntu" {
+  family = "ubuntu-2204-lts"
+}
 
 resource "yandex_compute_disk" "disk-med" {
   name     = "disk-med"
-  type     = "network-ssd"
+  type     = var.hardware
   zone     = var.zone
-  size     = "20"
-  image_id = var.os
+  size     = "10"
+  image_id = data.yandex_compute_image.ubuntu.image_id
 }
 
 resource "yandex_compute_disk" "disk-admin" {
   name     = "disk-admin"
-  type     = "network-ssd"
+  type     = var.hardware
   zone     = var.zone
-  size     = "20"
-  image_id = var.os
+  size     = "10"
+  image_id = data.yandex_compute_image.ubuntu.image_id
 }
 
 resource "yandex_compute_disk" "disk-ai" {
   name     = "disk-ai"
-  type     = "network-ssd"
+  type     = var.hardware
   zone     = var.zone
   size     = "20"
-  image_id = var.os
+  image_id = data.yandex_compute_image.ubuntu.image_id
 }
 
 resource "yandex_compute_disk" "disk-fin" {
   name     = "disk-fin"
-  type     = "network-ssd"
+  type     = var.hardware
   zone     = "ru-central1-d"
-  size     = "20"
-  image_id = var.os
+  size     = "10"
+  image_id = data.yandex_compute_image.ubuntu.image_id
 }
-
+ 
 resource "yandex_compute_instance" "vmmed" {
   name = "vm-med"
 
   resources {
-    cores  = 2
-    memory = 2
+    cores  = 4
+    memory = 4
   }
 
   boot_disk {
@@ -49,7 +67,7 @@ resource "yandex_compute_instance" "vmmed" {
   }
 
   metadata = {
-    ssh-keys = "ubuntu:${file("~/.ssh/id_ed25519.pub")}"
+    ssh-keys = "ubuntu:${var.ssh_public_key}"
   }
 }
 
@@ -71,7 +89,7 @@ resource "yandex_compute_instance" "vmadmin" {
   }
 
   metadata = {
-    ssh-keys = "ubuntu:${file("~/.ssh/id_ed25519.pub")}"
+    ssh-keys = "ubuntu:${var.ssh_public_key}"
   }
 }
 
@@ -79,8 +97,8 @@ resource "yandex_compute_instance" "vmai" {
   name = "vm-ai"
 
   resources {
-    cores  = 2
-    memory = 2
+    cores  = 8
+    memory = 8
   }
 
   boot_disk {
@@ -93,7 +111,7 @@ resource "yandex_compute_instance" "vmai" {
   }
 
   metadata = {
-    ssh-keys = "ubuntu:${file("~/.ssh/id_ed25519.pub")}"
+    ssh-keys = "ubuntu:${var.ssh_public_key}"
   }
 }
 
@@ -115,7 +133,7 @@ resource "yandex_compute_instance" "vmfin" {
   }
 
   metadata = {
-    ssh-keys = "ubuntu:${file("~/.ssh/id_ed25519.pub")}"
+    ssh-keys = "ubuntu:${var.ssh_public_key}"
   }
 }
 
