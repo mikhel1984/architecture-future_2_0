@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.4.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.5.1">
   <diagram name="Page-1" id="BNitPFzYUYX-1WxzSDC1">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -26,19 +26,19 @@
           <mxGeometry height="60" width="120" x="120" y="390" as="geometry" />
         </mxCell>
         <mxCell id="bkNeVOz_amUTD60CEZMK-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#62a0ea, #ededed);" value="ИИ сервисы" vertex="1">
-          <mxGeometry height="60" width="120" x="460" y="390" as="geometry" />
+          <mxGeometry height="60" width="120" x="530" y="390" as="geometry" />
         </mxCell>
         <mxCell id="8xywPonZgCBApMCpuVWv-5" edge="1" parent="1" source="bkNeVOz_amUTD60CEZMK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="bkNeVOz_amUTD60CEZMK-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bkNeVOz_amUTD60CEZMK-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" value="Data-product" vertex="1">
-          <mxGeometry height="50" width="110" x="300" y="395" as="geometry" />
+          <mxGeometry height="50" width="110" x="330" y="395" as="geometry" />
         </mxCell>
         <mxCell id="8xywPonZgCBApMCpuVWv-3" edge="1" parent="1" source="bkNeVOz_amUTD60CEZMK-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="8xywPonZgCBApMCpuVWv-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bkNeVOz_amUTD60CEZMK-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#62a0ea, #ededed);" value="DataLake для ИИ" vertex="1">
-          <mxGeometry height="60" width="120" x="460" y="200" as="geometry" />
+          <mxGeometry height="60" width="120" x="530" y="200" as="geometry" />
         </mxCell>
         <mxCell id="8xywPonZgCBApMCpuVWv-6" edge="1" parent="1" source="bkNeVOz_amUTD60CEZMK-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="bkNeVOz_amUTD60CEZMK-7">
           <mxGeometry relative="1" as="geometry" />
@@ -47,13 +47,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bkNeVOz_amUTD60CEZMK-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" value="Данные для анализа" vertex="1">
-          <mxGeometry height="50" width="110" x="465" y="300" as="geometry" />
+          <mxGeometry height="50" width="110" x="535" y="300" as="geometry" />
         </mxCell>
         <mxCell id="8xywPonZgCBApMCpuVWv-2" edge="1" parent="1" source="8xywPonZgCBApMCpuVWv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="bkNeVOz_amUTD60CEZMK-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8xywPonZgCBApMCpuVWv-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" value="Data-product" vertex="1">
-          <mxGeometry height="50" width="110" x="300" y="205" as="geometry" />
+          <mxGeometry height="50" width="110" x="330" y="205" as="geometry" />
         </mxCell>
         <mxCell id="8xywPonZgCBApMCpuVWv-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Врач" vertex="1">
           <mxGeometry height="60" width="120" x="120" y="90" as="geometry" />
@@ -65,7 +65,7 @@
         </object>
         <object placeholders="1" c4Name="ИИ аналитика" c4Type="SystemScopeBoundary" c4Application="Software System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="8xywPonZgCBApMCpuVWv-13">
           <mxCell parent="1" style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
-            <mxGeometry height="340" width="180" x="440" y="180" as="geometry" />
+            <mxGeometry height="340" width="180" x="510" y="180" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="8xywPonZgCBApMCpuVWv-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Прием специалиста&lt;/font&gt;" vertex="1">
@@ -75,13 +75,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jnZrC6XKo6FyWTF-cWwo-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#62a0ea, #ededed);" value="DWH административно-хозязственных данных" vertex="1">
-          <mxGeometry height="60" width="120" x="760" y="840" as="geometry" />
+          <mxGeometry height="60" width="120" x="940" y="840" as="geometry" />
         </mxCell>
         <mxCell id="jnZrC6XKo6FyWTF-cWwo-21" edge="1" parent="1" source="jnZrC6XKo6FyWTF-cWwo-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="jnZrC6XKo6FyWTF-cWwo-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jnZrC6XKo6FyWTF-cWwo-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#62a0ea, #ededed);" value="DWH финансовых данных" vertex="1">
-          <mxGeometry height="60" width="120" x="760" y="650" as="geometry" />
+          <mxGeometry height="60" width="120" x="940" y="650" as="geometry" />
         </mxCell>
         <mxCell id="jnZrC6XKo6FyWTF-cWwo-17" edge="1" parent="1" source="jnZrC6XKo6FyWTF-cWwo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="jnZrC6XKo6FyWTF-cWwo-13">
           <mxGeometry relative="1" as="geometry" />
@@ -108,43 +108,58 @@
         </object>
         <object placeholders="1" c4Name="Финтех услуги" c4Type="SystemScopeBoundary" c4Application="Software System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="jnZrC6XKo6FyWTF-cWwo-10">
           <mxCell parent="1" style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
-            <mxGeometry height="130" width="170" x="740" y="630" as="geometry" />
+            <mxGeometry height="130" width="170" x="920" y="630" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="Административно-хозяйственные услуги" c4Type="SystemScopeBoundary" c4Application="Software System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="jnZrC6XKo6FyWTF-cWwo-11">
           <mxCell parent="1" style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
-            <mxGeometry height="170" width="180" x="740" y="820" as="geometry" />
+            <mxGeometry height="170" width="180" x="920" y="820" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="jnZrC6XKo6FyWTF-cWwo-23" edge="1" parent="1" source="jnZrC6XKo6FyWTF-cWwo-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="jnZrC6XKo6FyWTF-cWwo-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jnZrC6XKo6FyWTF-cWwo-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#62a0ea, #ededed);" value="Витрина данных" vertex="1">
-          <mxGeometry height="60" width="120" x="440" y="840" as="geometry" />
+          <mxGeometry height="60" width="120" x="520" y="840" as="geometry" />
         </mxCell>
         <mxCell id="jnZrC6XKo6FyWTF-cWwo-18" edge="1" parent="1" source="jnZrC6XKo6FyWTF-cWwo-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="jnZrC6XKo6FyWTF-cWwo-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jnZrC6XKo6FyWTF-cWwo-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" value="Data-product" vertex="1">
-          <mxGeometry height="50" width="110" x="290" y="845" as="geometry" />
+          <mxGeometry height="50" width="110" x="320" y="845" as="geometry" />
         </mxCell>
         <mxCell id="jnZrC6XKo6FyWTF-cWwo-20" edge="1" parent="1" source="jnZrC6XKo6FyWTF-cWwo-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="jnZrC6XKo6FyWTF-cWwo-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jnZrC6XKo6FyWTF-cWwo-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" value="Data-product" vertex="1">
-          <mxGeometry height="50" width="110" x="610" y="845" as="geometry" />
+          <mxGeometry height="50" width="110" x="740" y="845" as="geometry" />
         </mxCell>
         <mxCell id="jnZrC6XKo6FyWTF-cWwo-22" edge="1" parent="1" source="jnZrC6XKo6FyWTF-cWwo-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="jnZrC6XKo6FyWTF-cWwo-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jnZrC6XKo6FyWTF-cWwo-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" value="Data-product" vertex="1">
-          <mxGeometry height="50" width="110" x="610" y="655" as="geometry" />
+          <mxGeometry height="50" width="110" x="740" y="655" as="geometry" />
         </mxCell>
         <mxCell id="jnZrC6XKo6FyWTF-cWwo-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Аналитик" vertex="1">
-          <mxGeometry height="60" width="120" x="440" y="710" as="geometry" />
+          <mxGeometry height="60" width="120" x="520" y="710" as="geometry" />
         </mxCell>
         <mxCell id="jnZrC6XKo6FyWTF-cWwo-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Формирование отчетов&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="190" x="315" y="600" as="geometry" />
+          <mxGeometry height="30" width="190" x="260" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="1rjaPjp4bbu6y1MeokPm-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="История болезни пациента в обезличенном виде" vertex="1">
+          <mxGeometry height="30" width="130" x="320" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="1rjaPjp4bbu6y1MeokPm-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Описание анализов, постановка диагноза, рекомендации по лечению" vertex="1">
+          <mxGeometry height="30" width="160" x="305" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="1rjaPjp4bbu6y1MeokPm-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Оснащение оборудованием, распределение доходов и расходов по статьям, количественный и качественный состав персонала в обезличенном виде." vertex="1">
+          <mxGeometry height="70" width="200" x="695" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="1rjaPjp4bbu6y1MeokPm-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Анализ работы финансовых сервисов." vertex="1">
+          <mxGeometry height="30" width="110" x="740" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="1rjaPjp4bbu6y1MeokPm-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Обобщенные данные в обезличенном виде по заболеваемости пациентов и эффективности оказываемых услуг" vertex="1">
+          <mxGeometry height="60" width="165" x="292.5" y="760" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
