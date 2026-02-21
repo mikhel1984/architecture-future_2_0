@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.4.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.4.0">
   <diagram name="Page-1" id="XYzviaGkLEihakHnlCjJ">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -42,7 +42,7 @@
         <mxCell id="trrXNG4wuYTezkyi2vT0-65" edge="1" parent="1" source="trrXNG4wuYTezkyi2vT0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="trrXNG4wuYTezkyi2vT0-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="trrXNG4wuYTezkyi2vT0-72" connectable="0" parent="trrXNG4wuYTezkyi2vT0-65" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Витрина данных" vertex="1">
+        <mxCell id="trrXNG4wuYTezkyi2vT0-72" connectable="0" parent="trrXNG4wuYTezkyi2vT0-65" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;Витрина данных&lt;/div&gt;&lt;div&gt;(аналитика по работе&lt;/div&gt;&lt;div&gt;финансовых сервисов)&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.4992" y="4" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -236,7 +236,7 @@
         <mxCell id="trrXNG4wuYTezkyi2vT0-62" edge="1" parent="1" source="trrXNG4wuYTezkyi2vT0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="trrXNG4wuYTezkyi2vT0-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="trrXNG4wuYTezkyi2vT0-73" connectable="0" parent="trrXNG4wuYTezkyi2vT0-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Витрина данных" vertex="1">
+        <mxCell id="trrXNG4wuYTezkyi2vT0-73" connectable="0" parent="trrXNG4wuYTezkyi2vT0-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;Витрина данных&lt;/div&gt;&lt;div&gt;(оснащение оборудованием,&amp;nbsp;&lt;/div&gt;&lt;div&gt;статьи расходов,&lt;/div&gt;&lt;div&gt;количественный и качественный&lt;/div&gt;&lt;div&gt;состав персонала)&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.7299" y="-3" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -244,7 +244,7 @@
         <mxCell id="trrXNG4wuYTezkyi2vT0-63" edge="1" parent="1" source="trrXNG4wuYTezkyi2vT0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="trrXNG4wuYTezkyi2vT0-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="trrXNG4wuYTezkyi2vT0-75" connectable="0" parent="trrXNG4wuYTezkyi2vT0-63" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Витрина данных" vertex="1">
+        <mxCell id="trrXNG4wuYTezkyi2vT0-75" connectable="0" parent="trrXNG4wuYTezkyi2vT0-63" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;Витрина данных&lt;/div&gt;&lt;div&gt;(обобщенные данные по&lt;/div&gt;&lt;div&gt;заболеваемости и&amp;nbsp;&lt;/div&gt;&lt;div&gt;эффективности лечения)&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.1" y="-3" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -277,6 +277,9 @@
             <mxGeometry height="400" width="280" x="980" y="610" as="geometry" />
           </mxCell>
         </object>
+        <mxCell id="ONkoc0eeXZWDRr7TxrUf-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Ограничения&lt;/b&gt;: личные данные пациентов (медицинские карты, результаты анализов и т.п.) не могут быть использованы в сервисах аналитики." vertex="1">
+          <mxGeometry height="75" width="280" x="1210" y="535" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
