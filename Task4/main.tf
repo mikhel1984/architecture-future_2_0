@@ -44,7 +44,7 @@ resource "yandex_compute_disk" "disk-ai" {
 resource "yandex_compute_disk" "disk-fin" {
   name     = "disk-fin"
   type     = var.hardware
-  zone     = "ru-central1-d"
+  zone     = var.zone
   size     = "10"
   image_id = data.yandex_compute_image.ubuntu.image_id
 }
